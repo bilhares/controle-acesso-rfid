@@ -1,0 +1,17 @@
+C:\Users\User\AppData\Local\Temporary Projects\Controle de acesso\bin\Debug\Controle de acesso.exe
+C:\Users\User\AppData\Local\Temporary Projects\Controle de acesso\bin\Debug\Controle de acesso.pdb
+C:\Users\User\AppData\Local\Temporary Projects\Controle de acesso\obj\x86\Debug\Controle_de_acesso.frmLogin.resources
+C:\Users\User\AppData\Local\Temporary Projects\Controle de acesso\obj\x86\Debug\Controle_de_acesso.Properties.Resources.resources
+C:\Users\User\AppData\Local\Temporary Projects\Controle de acesso\obj\x86\Debug\Controle de acesso.csproj.GenerateResource.Cache
+C:\Users\User\AppData\Local\Temporary Projects\Controle de acesso\obj\x86\Debug\Controle de acesso.exe
+C:\Users\User\AppData\Local\Temporary Projects\Controle de acesso\obj\x86\Debug\Controle de acesso.pdb
+C:\Users\User\Desktop\Cursos\Pedidos\Códigos\Arduino-C#-RFID\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle de acesso.exe
+C:\Users\User\Desktop\Cursos\Pedidos\Códigos\Arduino-C#-RFID\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle de acesso.pdb
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\bin\Debug\Controle de acesso.exe
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\bin\Debug\Controle de acesso.pdb
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle_de_acesso.frmLogin.resources
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle_de_acesso.Properties.Resources.resources
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle de acesso.csproj.GenerateResource.Cache
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle de acesso.csproj.CoreCompileInputs.cache
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle de acesso.exe
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle de acesso.pdb
