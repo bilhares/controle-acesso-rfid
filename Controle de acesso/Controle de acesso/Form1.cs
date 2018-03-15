@@ -48,17 +48,18 @@ namespace Controle_de_acesso
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(url);
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            HttpResponseMessage response = client.GetAsync(url+"rfid/"+ senha).Result;
+            HttpResponseMessage response = client.GetAsync(url+ "rfid/user-ev/" + senha).Result;
 
             if (response.IsSuccessStatusCode)
             {
                 var result = response.Content.ReadAsStringAsync().Result;
-                Usuario u = JsonConvert.DeserializeObject<Usuario>(result);
+               // Usuario u = JsonConvert.DeserializeObject<Usuario>(result);
+                UserEvRetorno u = JsonConvert.DeserializeObject<UserEvRetorno>(result);
 
-                if (u.nome != null)
+                if (u.nomeUser != null)
                 {
 
-                    MessageBox.Show("Login efetuado!\n" + u.nome);
+                    MessageBox.Show("Login efetuado!\n" + u.nomeUser);
                     Form2 fr2 = new Form2();
                     fr2.SetDados(u);
                     fr2.Show();
@@ -143,7 +144,12 @@ namespace Controle_de_acesso
                 MessageBox.Show("Ocorreu um erro: " + ex.Message);
             }
         }
-             
 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form3 fr3 = new Form3(this);
+            fr3.Show();
+            this.Visible = false;
+         }
     }
 }

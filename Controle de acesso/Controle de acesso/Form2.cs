@@ -22,11 +22,17 @@ namespace Controle_de_acesso
             ftUser.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-        public void SetDados(Usuario u)
+        public void SetDados(UserEvRetorno u)
         {
-            txNome.Text = u.nome;
-            txEmail.Text = u.email;
-            ftUser.Image = ByteToImage(u.foto);
+            txNome.Text = u.nomeUser;
+            txEmail.Text = u.emailUser;
+            ftUser.Image = ByteToImage(u.ftUser);
+            txNomEvento.Text = u.nomeEvento;
+            txPrecoEv.Text = u.preco.ToString();
+            txLocalEv.Text = u.local;
+            txDataEv.Text = u.data.ToString();
+            ftEvento.Image = ByteToImage(u.ftEvento);
+
         }
 
         public static Bitmap ByteToImage(byte[] blob)
