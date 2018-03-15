@@ -34,10 +34,11 @@
             this.btnEntrar = new System.Windows.Forms.Button();
             this.arduino = new System.IO.Ports.SerialPort(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.cbPortas = new System.Windows.Forms.ComboBox();
-            this.txtBaund = new System.Windows.Forms.TextBox();
             this.btnConectar = new System.Windows.Forms.Button();
+            this.txtBaund = new System.Windows.Forms.TextBox();
+            this.cbPortas = new System.Windows.Forms.ComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +54,7 @@
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(7, 42);
+            this.txtSenha.Location = new System.Drawing.Point(7, 49);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(248, 20);
             this.txtSenha.TabIndex = 1;
@@ -61,7 +62,7 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(180, 68);
+            this.btnEntrar.Location = new System.Drawing.Point(180, 75);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(75, 23);
             this.btnEntrar.TabIndex = 2;
@@ -85,17 +86,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Configurações";
             // 
-            // groupBox2
+            // btnConectar
             // 
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.txtSenha);
-            this.groupBox2.Controls.Add(this.btnEntrar);
-            this.groupBox2.Location = new System.Drawing.Point(13, 91);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(261, 99);
-            this.groupBox2.TabIndex = 4;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Entrar";
+            this.btnConectar.Location = new System.Drawing.Point(166, 45);
+            this.btnConectar.Name = "btnConectar";
+            this.btnConectar.Size = new System.Drawing.Size(89, 23);
+            this.btnConectar.TabIndex = 2;
+            this.btnConectar.Text = "Conectar";
+            this.btnConectar.UseVisualStyleBackColor = true;
+            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
+            // 
+            // txtBaund
+            // 
+            this.txtBaund.Location = new System.Drawing.Point(9, 48);
+            this.txtBaund.Name = "txtBaund";
+            this.txtBaund.Size = new System.Drawing.Size(121, 20);
+            this.txtBaund.TabIndex = 1;
             // 
             // cbPortas
             // 
@@ -106,22 +112,27 @@
             this.cbPortas.Size = new System.Drawing.Size(121, 21);
             this.cbPortas.TabIndex = 0;
             // 
-            // txtBaund
+            // groupBox2
             // 
-            this.txtBaund.Location = new System.Drawing.Point(9, 48);
-            this.txtBaund.Name = "txtBaund";
-            this.txtBaund.Size = new System.Drawing.Size(121, 20);
-            this.txtBaund.TabIndex = 1;
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.txtSenha);
+            this.groupBox2.Controls.Add(this.btnEntrar);
+            this.groupBox2.Location = new System.Drawing.Point(13, 91);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(261, 99);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Entrar";
             // 
-            // btnConectar
+            // label2
             // 
-            this.btnConectar.Location = new System.Drawing.Point(166, 45);
-            this.btnConectar.Name = "btnConectar";
-            this.btnConectar.Size = new System.Drawing.Size(89, 23);
-            this.btnConectar.TabIndex = 2;
-            this.btnConectar.Text = "Conectar";
-            this.btnConectar.UseVisualStyleBackColor = true;
-            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(102, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "95cef3aa";
             // 
             // frmLogin
             // 
@@ -158,6 +169,7 @@
         private System.Windows.Forms.TextBox txtBaund;
         private System.Windows.Forms.ComboBox cbPortas;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label2;
     }
 }
 

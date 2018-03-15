@@ -15,3 +15,7 @@ C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj
 C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle de acesso.csproj.CoreCompileInputs.cache
 C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle de acesso.exe
 C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle de acesso.pdb
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\bin\Debug\Controle de acesso.exe.config
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\bin\Debug\Newtonsoft.Json.dll
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\bin\Debug\Newtonsoft.Json.xml
+C:\workspace_felipe\repositorio_felipe\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle_de_acesso.Form2.resources

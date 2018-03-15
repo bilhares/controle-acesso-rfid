@@ -8,12 +8,20 @@ using System.Text;
 using System.Windows.Forms;
 using System.Collections;
 using System.IO.Ports;
+using System.Net;
+using System.Threading.Tasks;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using Newtonsoft.Json;
 
 namespace Controle_de_acesso
 {
     public partial class frmLogin : Form
     {
         private ArrayList senhas = new ArrayList();
+        private static String sev = "localhost";
+        private static String url = "http://"+sev+":8081/api/";
+
 
         public frmLogin()
         {
@@ -27,15 +35,46 @@ namespace Controle_de_acesso
 
         private void login(string senha)
         {
-            if (senha.Trim() == "")
-                MessageBox.Show("Você deve informar uma senha!");
-            else if (senhas.Contains(senha))
-                MessageBox.Show("Login efetuado!");
-            else
-                MessageBox.Show("Senha inválida!");
+            //MessageBox.Show("id "+senha);
+            //if (senha.Trim() == "")
+            //    MessageBox.Show("Você deve informar uma senha!");
+            //else if (senhas.Contains(senha))
+            //    MessageBox.Show("Login efetuado!");
+            //else
+            //    MessageBox.Show("Senha inválida!");
 
+            //95cef3aa
+
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri(url);
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            HttpResponseMessage response = client.GetAsync(url+"rfid/"+ senha).Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                var result = response.Content.ReadAsStringAsync().Result;
+                Usuario u = JsonConvert.DeserializeObject<Usuario>(result);
+
+                if (u.nome != null)
+                {
+
+                    MessageBox.Show("Login efetuado!\n" + u.nome);
+                    Form2 fr2 = new Form2();
+                    fr2.SetDados(u);
+                    fr2.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Senha inválida!");
+                }
+                
+            }
+            else
+            {
+                MessageBox.Show("tag invalida!");
+            }
             txtSenha.Text = "";
-            
+
         }
 
         private void frmLogin_Load(object sender, EventArgs e)
@@ -43,6 +82,7 @@ namespace Controle_de_acesso
             senhas.Add("admin");
             senhas.Add("12345");
             senhas.Add("7497572e");
+            senhas.Add("95cef3aa");
 
             string[] p = SerialPort.GetPortNames();
             cbPortas.DataSource = p;
@@ -103,6 +143,7 @@ namespace Controle_de_acesso
                 MessageBox.Show("Ocorreu um erro: " + ex.Message);
             }
         }
+             
 
     }
 }
