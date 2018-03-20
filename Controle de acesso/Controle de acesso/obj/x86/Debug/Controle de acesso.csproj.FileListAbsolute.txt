@@ -24,7 +24,6 @@ C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\C
 C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\bin\Debug\Controle de acesso.pdb
 C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\bin\Debug\Newtonsoft.Json.dll
 C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\bin\Debug\Newtonsoft.Json.xml
-C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle de acesso.csprojResolveAssemblyReference.cache
 C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle_de_acesso.frmLogin.resources
 C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle_de_acesso.Form2.resources
 C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Debug\Controle_de_acesso.Properties.Resources.resources

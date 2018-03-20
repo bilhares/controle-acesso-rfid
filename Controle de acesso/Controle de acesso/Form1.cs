@@ -21,11 +21,10 @@ namespace Controle_de_acesso
         private ArrayList senhas = new ArrayList();
         private static String sev = "localhost";
         private static String url = "http://"+sev+":8081/api/";
-
-
+               
         public frmLogin()
         {
-            InitializeComponent();
+            InitializeComponent();          
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
@@ -35,14 +34,7 @@ namespace Controle_de_acesso
 
         private void login(string senha)
         {
-            //MessageBox.Show("id "+senha);
-            //if (senha.Trim() == "")
-            //    MessageBox.Show("Você deve informar uma senha!");
-            //else if (senhas.Contains(senha))
-            //    MessageBox.Show("Login efetuado!");
-            //else
-            //    MessageBox.Show("Senha inválida!");
-
+            
             //95cef3aa
 
             HttpClient client = new HttpClient();
@@ -59,7 +51,7 @@ namespace Controle_de_acesso
                 if (u.nomeUser != null)
                 {
 
-                    MessageBox.Show("Login efetuado!\n" + u.nomeUser);
+                    //MessageBox.Show("Login efetuado!\n" + u.nomeUser);
                     Form2 fr2 = new Form2();
                     fr2.SetDados(u);
                     fr2.Show();
@@ -109,9 +101,46 @@ namespace Controle_de_acesso
         }
 
         private void arduino_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
-        {
-            this.Invoke(new EventHandler(loginArduino));
+        {           
+            this.Invoke(new EventHandler(loginArduino));           
         }
+
+        //public void cadastraTag(object o, EventArgs e)
+        //{
+        //    string teste = arduino.ReadLine().Replace("\r", "");
+        //    MessageBox.Show("aaaaa");
+        //    cadastrarTag(teste);
+        //}
+
+        //public void cadastrarTag(String id)
+        //{
+        //    Form3 fr3 = new Form3(this);
+        //    long idEvento = (long)fr3.getCbEventos();
+               
+        //    long idTag = Convert.ToInt64(id, 16);
+
+        //    MessageBox.Show("id " + idTag + " evento " + idEvento);
+
+        //    HttpClient client = new HttpClient();
+        //    client.BaseAddress = new Uri(url);
+        //    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+
+        //    dynamic jsonObject = new Newtonsoft.Json.Linq.JObject();
+        //    jsonObject.id = idTag;
+        //    jsonObject.idEvento = idEvento;
+        //    jsonObject.ativo = true;
+
+        //    var json = jsonObject.ToString();
+        //    var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        //    HttpResponseMessage response = client.PostAsync(url + "rfid", content).Result;
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        MessageBox.Show("Cadastrado com sucesso");
+        //    }
+        //}
+
 
         private void loginArduino(object o, EventArgs e)
         {
@@ -147,9 +176,9 @@ namespace Controle_de_acesso
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form3 fr3 = new Form3(this);
-            fr3.Show();
-            this.Visible = false;
-         }
+            //Form3 fr3 = new Form3(this);
+            //fr3.Show();
+            //this.Visible = false;
+        }
     }
 }

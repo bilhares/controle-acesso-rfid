@@ -77,6 +77,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.groupBox1.Controls.Add(this.btnConectar);
             this.groupBox1.Controls.Add(this.txtBaund);
             this.groupBox1.Controls.Add(this.cbPortas);

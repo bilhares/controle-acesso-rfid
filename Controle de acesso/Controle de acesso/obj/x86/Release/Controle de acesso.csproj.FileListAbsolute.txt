@@ -1,0 +1,14 @@
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\bin\Release\Controle de acesso.exe.config
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\bin\Release\Controle de acesso.exe
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\bin\Release\Controle de acesso.pdb
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\bin\Release\Newtonsoft.Json.dll
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\bin\Release\Newtonsoft.Json.xml
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Release\Controle de acesso.csprojResolveAssemblyReference.cache
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Release\Controle_de_acesso.frmLogin.resources
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Release\Controle_de_acesso.Form2.resources
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Release\Controle_de_acesso.Form3.resources
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Release\Controle_de_acesso.Properties.Resources.resources
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Release\Controle de acesso.csproj.GenerateResource.Cache
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Release\Controle de acesso.csproj.CoreCompileInputs.cache
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Release\Controle de acesso.exe
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\Controle de acesso\obj\x86\Release\Controle de acesso.pdb

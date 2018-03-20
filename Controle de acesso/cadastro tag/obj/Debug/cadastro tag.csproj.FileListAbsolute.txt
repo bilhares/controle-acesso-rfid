@@ -1,0 +1,11 @@
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\bin\Debug\cadastro tag.exe.config
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\bin\Debug\cadastro tag.exe
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\bin\Debug\cadastro tag.pdb
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\obj\Debug\cadastro_tag.Properties.Resources.resources
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\obj\Debug\cadastro tag.csproj.GenerateResource.Cache
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\obj\Debug\cadastro tag.csproj.CoreCompileInputs.cache
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\obj\Debug\cadastro tag.exe
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\obj\Debug\cadastro tag.pdb
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\obj\Debug\cadastro_tag.Form1.resources
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\bin\Debug\Newtonsoft.Json.dll
+C:\workspace_felipe\repositorio_felipe\controle-acesso-rfid\Controle de acesso\cadastro tag\bin\Debug\Newtonsoft.Json.xml
